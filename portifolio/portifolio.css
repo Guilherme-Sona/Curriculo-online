@@ -197,3 +197,47 @@ img {
   text-decoration: none;
   display: inline-block;
 }
+
+.projetos > a {
+  background-image: linear-gradient(30.83deg, #2f00ff, #0c0d0d);
+  color: white;
+  border-radius: 80px;
+}
+
+.projetos {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0 auto;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 190px;
+  word-break: keep-all;
+  z-index: 0;
+  display: flex;
+
+  margin-bottom: 500px;
+}
